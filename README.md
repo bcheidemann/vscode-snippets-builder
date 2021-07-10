@@ -2,8 +2,8 @@
 
 ## What is it?
 
-VSCode Snippets Builder is an typescript package and commandline tool
-to help build snippet files.
+VSCode Snippets Builder is a typescript / javascript module and
+commandline tool to help build VSCode snippet files.
 
 ## Motivation
 
