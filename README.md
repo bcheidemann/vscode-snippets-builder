@@ -73,8 +73,7 @@ path: advanced.snippet.json
       "template": "./method.template",
       "method_name": "logMethod",
       "0": {
-        "template": "./body.template",
-        "0": "'Hello World!'",
+        "value": "    // TODO: implement this method",
         "suffix": "\n"
       },
     },
@@ -82,7 +81,7 @@ path: advanced.snippet.json
       "template": "./method.template",
       "method_name": "sayHello",
       "0": {
-        "template": "./body.template",
+        "template": "./log.template",
         "prefix": "  /** says hello */",
         "0": "'Hello World!'"
       },
