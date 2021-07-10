@@ -18,6 +18,10 @@ with less effort. It achieves this by:
  - allowing you to reuse and combine .template files in multiple
    snippets
 
+When used properly, this results in less duplicate code being written
+and faster refactoring when changing a pattern shared across many
+code snippets.
+
 ## Usage
 
 ### Class Template
