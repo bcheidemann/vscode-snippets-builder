@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test should generate a snippet file 1`] = `
+Object {
+  "/home/ben/Code/vscode-snippets-builder/src/test/helpers/src/class.template": "class MyClass {
+  \${0}
+}",
+  "/home/ben/Code/vscode-snippets-builder/src/test/helpers/src/composite.snippet.json": "{
+  \\"0\\": {
+    \\"0\\": {
+      \\"0\\": \\"'Hello World!'\\",
+      \\"template\\": \\"./body.template\\"
+    },
+    \\"template\\": \\"./method.template\\"
+  },
+  \\"name\\": \\"Class with Method\\",
+  \\"alias\\": \\".myclassmethod\\",
+  \\"template\\": \\"./class.template\\"
+}",
+  "/home/ben/Code/vscode-snippets-builder/src/test/helpers/src/log.template": "console.log(\${0})",
+  "/home/ben/Code/vscode-snippets-builder/src/test/helpers/src/method.template": "  public myMethod() { \${0} }",
+}
+`;

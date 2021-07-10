@@ -1,0 +1,31 @@
+{
+  "name": "vscode-snippets-builder",
+  "version": "1.0.0",
+  "description": "A tool to build VS Code snippet files in a modular way",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcheidemann/vscode-snippets-builder.git"
+  },
+  "author": "Ben Heidemann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcheidemann/vscode-snippets-builder/issues"
+  },
+  "homepage": "https://github.com/bcheidemann/vscode-snippets-builder#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  },
+  "bin": {
+    "build-snippets": "./dist/cli/index.js"
+  },
+  "dependencies": {}
+}
